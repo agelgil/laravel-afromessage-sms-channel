@@ -1,14 +1,12 @@
 {
-    "name": "laravel-notification-channels/:package_name",
+    "name": "laravel-notification-channels/afromessage",
     "description": ":package_description",
-    "homepage": "https://github.com/laravel-notification-channels/:package_name",
+    "homepage": "https://github.com/laravel-notification-channels/afro-message",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
-            "role": "Developer"
+            "name": "Samson Endale",
+            "email": "sam@agelgil.et"
         }
     ],
     "require": {
@@ -22,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\": "src"
+            "NotificationChannels\\AfroMessage\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\Test\\": "tests"
+            "NotificationChannels\\AfroMessage\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -36,5 +34,12 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NotificationChannels\\AfroMessage\\AfroMessageServiceProvider"
+            ]
+        }
     }
 }
