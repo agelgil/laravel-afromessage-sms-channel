@@ -44,7 +44,7 @@ class AfroMessageChannel
             'message' => $message->getContent(),
             'sender' => $message->getSender(),
             'from' => $message->getFrom(),
-            'to' => $message->getTo(),
+            'to' => $mobileNumber,
         ];
 
         try {
