@@ -48,7 +48,7 @@ class AfroMessageChannel
         ];
 
         try {
-            $this->request->get('/api/send', $params)->throw();
+            $this->request->post('/api/send', $params)->throw();
         } catch (Exception $e) {
             throw CouldNotSendNotification::error($e->getMessage());
         }
