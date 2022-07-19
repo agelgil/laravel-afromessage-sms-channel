@@ -1,7 +1,7 @@
 {
-    "name": "laravel-notification-channels/afromessage",
-    "description": ":package_description",
-    "homepage": "https://github.com/laravel-notification-channels/afro-message",
+    "name": "agelgil/laravel-afromessage-sms-channel",
+    "description": "Laravel SMS notification channel",
+    "homepage": "https://github.com/agelgil/laravel-afromessage-sms-channel",
     "license": "MIT",
     "authors": [
         {
@@ -11,8 +11,8 @@
     ],
     "require": {
         "php": ">=7.2",
-        "illuminate/notifications": "~6.0 || ~7.0 || ~8.0",
-        "illuminate/support": "~6.0 || ~7.0 || ~8.0"
+        "illuminate/notifications": "~6.0 || ~7.0 || ~8.0 || ~9.0",
+        "illuminate/support": "~6.0 || ~7.0 || ~8.0 || ~9.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
