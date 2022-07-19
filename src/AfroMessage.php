@@ -2,7 +2,7 @@
 
 namespace NotificationChannels\AfroMessage;
 
-class AfroMessageMessage
+class AfroMessage
 {
     /** @var string */
     protected string $content;

@@ -27,7 +27,7 @@ class AfroMessageChannel
      */
     public function send($notifiable, Notification $notification)
     {
-        /** @var AfroMessageMessage $message */
+        /** @var AfroMessage $message */
         $message = $notification->toAfroMessage($notifiable);
 
         $mobileNumber = $notifiable->routeNotificationFor('afroMessage');
